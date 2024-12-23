@@ -1,0 +1,30 @@
+### POST Request with JSON body
+POST http://localhost:5000/api/register
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}
+
+### Login Request
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+  "email": "johndoe@example.com",
+  "loginMethod": "Google"
+}
+
+### Login Request
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+  "email": "johndoe@example.com",
+  "loginMethod": "Google"
+}
+
+### Store News Request
+POST http://localhost:5000/api/soreNews
+Content-Type: application/json
